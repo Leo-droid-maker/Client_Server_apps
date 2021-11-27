@@ -7,10 +7,11 @@
 IP-адрес для прослушивания (по умолчанию слушает все доступные адреса).
 """
 
+
 import json
 from sys import argv
-from config import *
-from utils import get_data, send_data
+from common.config import *
+from common.utils import get_data, send_data
 from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
 
 
@@ -18,6 +19,8 @@ def create_response(message):
     match message[ACTION], message[TIME], message[USER][ACCOUNT_NAME]:
         case 'presence', _, 'Leo':
             return {RESPONSE: 200}
+        case None, None, None:
+            raise ValueError
         case _:
             return {
                 RESPONSE: 400,
@@ -53,10 +56,8 @@ def start_server():
         try:
             data_from_client = get_data(client_socket)
             print(data_from_client)
-            print(type(data_from_client))
 
             response_obj = create_response(data_from_client)
-            print(type(response_obj))
             send_data(response_obj, client_socket)
 
             client_socket.close()
@@ -69,4 +70,5 @@ def start_server():
         #     serv_socket.close()
 
 
-start_server()
+if __name__ == '__main__':
+    start_server()
