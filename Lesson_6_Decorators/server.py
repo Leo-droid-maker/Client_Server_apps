@@ -14,25 +14,26 @@ IP-адрес для прослушивания (по умолчанию слу�
 
 import json
 import logging
-import log.server_log_config
 from sys import argv
 from common.config import *
 from common.utils import get_data, send_data
 from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
+from log import server_log_config
+from decorators import my_log
 
-SERVER_LOGGER = logging.getLogger('server')
+LOGGER = logging.getLogger('server')
 
-
+@my_log
 def create_response(message):
     match message[ACTION], message[TIME], message[USER][ACCOUNT_NAME]:
         case 'presence', _, 'Leo':
-            SERVER_LOGGER.info('Ответ сервера - 200: OK')
+            LOGGER.info('Ответ сервера - 200: OK')
             return {RESPONSE: 200}
         case None, None, None:
-            SERVER_LOGGER.error(f"Ошибка: Неправильно указан тип сообщения {message}")
+            LOGGER.error(f"Ошибка: Неправильно указан тип сообщения {message}")
             raise ValueError
         case _:
-            SERVER_LOGGER.error('Ответ сервера - 400: Bad request')
+            LOGGER.error('Ответ сервера - 400: Bad request')
             return {
                 RESPONSE: 400,
                 ERROR: "Bad request"
@@ -49,14 +50,14 @@ def start_server():
                    and (len(address.split('.')) == 4):
                 listen_port = int(port_number)
                 listen_address = address
-                SERVER_LOGGER.info(f'\nПрослушивается: {listen_address}\nПорт: {listen_port}')
+                LOGGER.info(f'\nПрослушивается: {listen_address}\nПорт: {listen_port}')
             case _:
-                SERVER_LOGGER.critical(SERVER_ARGS_ERROR)
+                LOGGER.critical(SERVER_ARGS_ERROR)
                 raise Exception(f'\nНеверно введены параметры.\n{SERVER_ARGS_ERROR}')
     except ValueError:
         listen_port = DEFAULT_PORT
         listen_address = ''
-        SERVER_LOGGER.error(f'ОШИБКА! {SERVER_ARGS_ERROR} \nБыли применены значения по умолчанию:\n'
+        LOGGER.error(f'ОШИБКА! {SERVER_ARGS_ERROR} \nБыли применены значения по умолчанию:\n'
                             f'Прослушивается порт: {listen_port}\nАдрес по умолчанию: {listen_address}')
 
     serv_socket = socket(AF_INET, SOCK_STREAM)
@@ -68,14 +69,14 @@ def start_server():
         client_socket, client_address = serv_socket.accept()
         try:
             data_from_client = get_data(client_socket)
-            SERVER_LOGGER.info(data_from_client)
+            LOGGER.info(data_from_client)
 
             response_obj = create_response(data_from_client)
             send_data(response_obj, client_socket)
 
             client_socket.close()
         except (ValueError, json.JSONDecodeError):
-            SERVER_LOGGER.error('Некорректное сообщение от клиента')
+            LOGGER.error('Некорректное сообщение от клиента')
             client_socket.close()
         # --------- Вот это часть вызывает ошибку OSError: [Errno 9] Bad file descriptor -------------
         # Еще не разобрался до конца почему, поэтому оставил сервер в прослушивании

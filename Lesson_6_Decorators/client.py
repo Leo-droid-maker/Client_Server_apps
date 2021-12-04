@@ -7,13 +7,11 @@
 client.py <addr> [<port>]: addr — ip-адрес сервера; port — tcp-порт на сервере, по умолчанию 7777.
 
 Реализовать применение созданных логгеров для решения двух задач:
-Журналирование обработки исключений try/except. Вместо функции print() использовать журналирование и
-обеспечить вывод служебных сообщений в лог-файл;
+Журналирование обработки исключений try/except. Вместо функции print() использовать журналирование и обеспечить вывод служебных сообщений в лог-файл;
 Журналирование функций, исполняемых на серверной и клиентской сторонах при работе мессенджера.
 """
 
 import logging
-import log.client_log_config
 from sys import argv
 from common.config import (
     ACTION,
@@ -30,12 +28,14 @@ from common.config import (
 from common.utils import get_data, send_data
 from socket import socket, AF_INET, SOCK_STREAM
 import time
+from log import client_log_config
+from decorators import my_log
 
 
-CLIENT_LOGGER = logging.getLogger('client')
+LOGGER = logging.getLogger('client')
 USER_NAME = 'Leo'
 
-
+@my_log
 def create_presence_message_to_server(action=PRESENCE, account_name=USER_NAME):
     msg = {
         ACTION: action,
@@ -45,22 +45,22 @@ def create_presence_message_to_server(action=PRESENCE, account_name=USER_NAME):
         },
     }
     if msg[ACTION] == PRESENCE and msg[USER][ACCOUNT_NAME] == USER_NAME:
-        CLIENT_LOGGER.info(f'Сообщение создано: {msg}')
+        LOGGER.info(f'Сообщение создано: {msg}')
         return msg
-    CLIENT_LOGGER.error(f"Ошибка: Неправильно указан тип сообщения {msg}")
+    LOGGER.error(f"Ошибка: Неправильно указан тип сообщения {msg}")
     raise ValueError()
 
-
+@my_log
 def create_answer(response_obj):
     match response_obj[RESPONSE]:
         case 200:
-            CLIENT_LOGGER.info('Ответ сервера - 200: OK')
+            LOGGER.info('Ответ сервера - 200: OK')
             return '200: OK'
         case 400:
-            CLIENT_LOGGER.error('Ответ сервера - 400: Bad request')
+            LOGGER.error('Ответ сервера - 400: Bad request')
             return f'400: {response_obj[ERROR]}'
         case _:
-            CLIENT_LOGGER.error("Неизвестная ошибка")
+            LOGGER.error("Неизвестная ошибка")
             raise ValueError()
 
 
@@ -71,14 +71,14 @@ def start_client():
                         len(s_address.split('.')) == 4):
                 server_address = s_address
                 server_port = int(s_port_number)
-                CLIENT_LOGGER.info(f'\nАдрес сервера: {server_address}\nПорт сервера: {server_port}')
+                LOGGER.info(f'\nАдрес сервера: {server_address}\nПорт сервера: {server_port}')
             case _:
-                CLIENT_LOGGER.critical(CLIENT_ARGS_ERROR)
+                LOGGER.critical(CLIENT_ARGS_ERROR)
                 raise Exception(f'\n{CLIENT_ARGS_ERROR}')
     except ValueError:
         server_address = DEFAULT_IP_ADDRESS
         server_port = DEFAULT_PORT
-        CLIENT_LOGGER.error(f'ОШИБКА! {CLIENT_ARGS_ERROR} \nБыли применены значения по умолчанию:\n'
+        LOGGER.error(f'ОШИБКА! {CLIENT_ARGS_ERROR} \nБыли применены значения по умолчанию:\n'
               f'Адрес сервера: {server_address}\nАдрес порта: {server_port}')
 
     client_socket = socket(AF_INET, SOCK_STREAM)
