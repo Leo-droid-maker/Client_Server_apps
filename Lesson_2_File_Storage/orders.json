@@ -1,0 +1,46 @@
+{
+    "orders": [
+        {
+            "item": "Тостер",
+            "quantity": 5,
+            "price": 20.5,
+            "buyer": "Dr.Martens",
+            "date": "20.11.2021"
+        },
+        {
+            "item": "Xerox",
+            "quantity": 7,
+            "price": 50.78,
+            "buyer": "Mr.Fade",
+            "date": "12.11.2021"
+        },
+        {
+            "item": "Microwave",
+            "quantity": 2,
+            "price": 16.55,
+            "buyer": "Ms.Smith",
+            "date": "15.11.2021"
+        },
+        {
+            "item": "Тостер",
+            "quantity": 5,
+            "price": 20.5,
+            "buyer": "Dr.Martens",
+            "date": "20.11.2021"
+        },
+        {
+            "item": "Xerox",
+            "quantity": 7,
+            "price": 50.78,
+            "buyer": "Mr.Fade",
+            "date": "12.11.2021"
+        },
+        {
+            "item": "Microwave",
+            "quantity": 2,
+            "price": 16.55,
+            "buyer": "Ms.Smith",
+            "date": "15.11.2021"
+        }
+    ]
+}

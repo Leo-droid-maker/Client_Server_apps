@@ -1,0 +1,20 @@
+2021-12-01 14:40:38; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-01 14:40:43; ERROR; server.py; Некорректное сообщение от клиента
+2021-12-01 14:41:36; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-01 14:41:40; INFO; server.py; {'action': 'presence', 'time': 1638358900.4497035, 'user': {'account_name': 'Leo'}}
+2021-12-01 14:41:40; INFO; server.py; Ответ сервера - 200: OK
+2021-12-01 14:49:42; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-01 14:49:53; INFO; server.py; {'action': 'presence', 'time': 1638359393.3028226, 'user': {'account_name': 'Leo'}}
+2021-12-01 14:49:53; INFO; server.py; Ответ сервера - 200: OK
+2021-12-01 14:49:56; INFO; server.py; {'action': 'presence', 'time': 1638359396.430575, 'user': {'account_name': 'Leo'}}
+2021-12-01 14:49:56; INFO; server.py; Ответ сервера - 200: OK
+2021-12-01 14:57:34; INFO; server_log_config.py; Информационное сообщение
+2021-12-01 14:57:34; WARNING; server_log_config.py; Предупреждение
+2021-12-01 14:57:34; ERROR; server_log_config.py; Ошибка
+2021-12-01 14:57:34; CRITICAL; server_log_config.py; Критическое сообщение
