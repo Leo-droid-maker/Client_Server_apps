@@ -1,0 +1,171 @@
+2021-12-26 15:34:05; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 15:34:14; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46740)
+2021-12-26 15:34:15; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>,), {}
+2021-12-26 15:34:15; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:15; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>), {}
+2021-12-26 15:34:15; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:15; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7f5a64dcfd60>, {'action': 'presence', 'time': 1640522054.721483, 'user': {'account_name': 'Leo'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>}), {}
+2021-12-26 15:34:15; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:24; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46742)
+2021-12-26 15:34:25; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>,), {}
+2021-12-26 15:34:25; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:25; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>), {}
+2021-12-26 15:34:25; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:25; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7f5a64dcfd60>, {'action': 'presence', 'time': 1640522064.6894305, 'user': {'account_name': 'Den'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>}), {}
+2021-12-26 15:34:25; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:35; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>,), {}
+2021-12-26 15:34:35; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:35; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7f5a64dcfd60>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640522075.4888031, 'mess_text': 'Hi'}, [{'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640522075.4888031, 'mess_text': 'Hi'}], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>}), {}
+2021-12-26 15:34:35; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:35; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640522075.4888031, 'mess_text': 'Hi'}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>), {}
+2021-12-26 15:34:35; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:35; INFO; server.py; Отправлено сообщение пользователю Den от пользователя Leo.
+2021-12-26 15:34:35; DEBUG; decorators.py; Вызвана функция message_handler c аргументами (<__main__.Server object at 0x7f5a64dcfd60>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640522075.4888031, 'mess_text': 'Hi'}, {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>}, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>]), {}
+2021-12-26 15:34:35; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:39; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46742)>,), {}
+2021-12-26 15:34:39; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:39; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7f5a64dcfd60>, {'action': 'exit', 'time': 1640522079.5844448, 'user': {'account_name': 'Den'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>}), {}
+2021-12-26 15:34:39; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:43; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46740)>,), {}
+2021-12-26 15:34:43; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 15:34:43; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7f5a64dcfd60>, {'action': 'exit', 'time': 1640522082.944376, 'user': {'account_name': 'Leo'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [], {}), {}
+2021-12-26 15:34:43; INFO; decorators.py; Вызвана из функции-предка: start_server
+2021-12-26 16:03:56; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 16:04:11; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46744)
+2021-12-26 16:04:12; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>,), {}
+2021-12-26 16:04:12; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:12; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>), {}
+2021-12-26 16:04:12; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:12; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7ff91b3e89a0>, {'action': 'presence', 'time': 1640523851.9655628, 'user': {'account_name': 'Leo'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>}), {}
+2021-12-26 16:04:12; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:19; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46746)
+2021-12-26 16:04:20; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>,), {}
+2021-12-26 16:04:20; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:20; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>), {}
+2021-12-26 16:04:20; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:20; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7ff91b3e89a0>, {'action': 'presence', 'time': 1640523859.5654416, 'user': {'account_name': 'Den'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>}), {}
+2021-12-26 16:04:20; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:26; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>,), {}
+2021-12-26 16:04:26; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:26; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7ff91b3e89a0>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640523866.218975, 'mess_text': 'HIHIHI'}, [{'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640523866.218975, 'mess_text': 'HIHIHI'}], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>}), {}
+2021-12-26 16:04:26; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:26; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640523866.218975, 'mess_text': 'HIHIHI'}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>), {}
+2021-12-26 16:04:26; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:26; INFO; server.py; Отправлено сообщение пользователю Den от пользователя Leo.
+2021-12-26 16:04:26; DEBUG; decorators.py; Вызвана функция message_handler c аргументами (<__main__.Server object at 0x7ff91b3e89a0>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640523866.218975, 'mess_text': 'HIHIHI'}, {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>}, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>]), {}
+2021-12-26 16:04:26; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:30; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46744)>,), {}
+2021-12-26 16:04:30; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:30; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7ff91b3e89a0>, {'action': 'exit', 'time': 1640523869.9330487, 'user': {'account_name': 'Leo'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>], {'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>}), {}
+2021-12-26 16:04:30; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:33; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46746)>,), {}
+2021-12-26 16:04:33; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:04:33; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7ff91b3e89a0>, {'action': 'exit', 'time': 1640523873.3546517, 'user': {'account_name': 'Den'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [], {}), {}
+2021-12-26 16:04:33; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 16:12:33; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 65700
+2021-12-26 16:17:37; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 65700
+2021-12-26 16:17:37; CRITICAL; descriptors.py; Попытка запуска сервера с указанием неподходящего порта 65700. Допустимы адреса с 1024 до 65535.
+2021-12-26 16:21:48; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 16:57:08; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 16:57:26; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:13:21; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:13:32; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46748)
+2021-12-26 17:13:33; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>,), {}
+2021-12-26 17:13:33; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:33; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>), {}
+2021-12-26 17:13:33; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:33; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7fd577aba0b0>, {'action': 'presence', 'time': 1640528012.7557666, 'user': {'account_name': 'Leo'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>}), {}
+2021-12-26 17:13:33; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:40; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46752)
+2021-12-26 17:13:40; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>,), {}
+2021-12-26 17:13:40; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:40; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>), {}
+2021-12-26 17:13:40; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:40; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7fd577aba0b0>, {'action': 'presence', 'time': 1640528020.4361928, 'user': {'account_name': 'Den'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>}), {}
+2021-12-26 17:13:40; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:47; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>,), {}
+2021-12-26 17:13:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:47; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7fd577aba0b0>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640528027.6836505, 'mess_text': 'Hi'}, [{'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640528027.6836505, 'mess_text': 'Hi'}], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>}), {}
+2021-12-26 17:13:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:47; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640528027.6836505, 'mess_text': 'Hi'}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>), {}
+2021-12-26 17:13:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:47; INFO; server.py; Отправлено сообщение пользователю Den от пользователя Leo.
+2021-12-26 17:13:47; DEBUG; decorators.py; Вызвана функция message_handler c аргументами (<__main__.Server object at 0x7fd577aba0b0>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640528027.6836505, 'mess_text': 'Hi'}, {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>}, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>]), {}
+2021-12-26 17:13:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:51; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46748)>,), {}
+2021-12-26 17:13:51; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:51; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7fd577aba0b0>, {'action': 'exit', 'time': 1640528031.1714113, 'user': {'account_name': 'Leo'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>], {'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>}), {}
+2021-12-26 17:13:51; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:54; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46752)>,), {}
+2021-12-26 17:13:54; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:13:54; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7fd577aba0b0>, {'action': 'exit', 'time': 1640528034.5793588, 'user': {'account_name': 'Den'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [], {}), {}
+2021-12-26 17:13:54; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:16:18; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:18:00; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:35:09; CRITICAL; metaclasses.py; Некорректная инициализация сокета.
+2021-12-26 17:35:09; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:37:11; CRITICAL; metaclasses.py; Некорректная инициализация сокета.
+2021-12-26 17:37:11; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:38:07; CRITICAL; metaclasses.py; Некорректная инициализация сокета.
+2021-12-26 17:38:07; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:39:35; CRITICAL; metaclasses.py; Некорректная инициализация сокета.
+2021-12-26 17:39:35; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:41:21; CRITICAL; metaclasses.py; Некорректная инициализация сокета.
+2021-12-26 17:41:21; INFO; server.py; 
+Прослушивается: 127.0.0.1
+Порт: 7777
+2021-12-26 17:41:29; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46754)
+2021-12-26 17:41:29; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>,), {}
+2021-12-26 17:41:29; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:29; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>), {}
+2021-12-26 17:41:29; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:29; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7febe8bf38e0>, {'action': 'presence', 'time': 1640529689.2214026, 'user': {'account_name': 'Leo'}}, [], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>}), {}
+2021-12-26 17:41:29; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:32; INFO; server.py; Установлено соедение с ПК ('127.0.0.1', 46756)
+2021-12-26 17:41:32; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>,), {}
+2021-12-26 17:41:32; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:32; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'response': 200}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>), {}
+2021-12-26 17:41:32; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:32; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7febe8bf38e0>, {'action': 'presence', 'time': 1640529692.4030766, 'user': {'account_name': 'Den'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>}), {}
+2021-12-26 17:41:32; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:42; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>,), {}
+2021-12-26 17:41:42; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:42; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7febe8bf38e0>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640529702.5787816, 'mess_text': 'HiHiHi'}, [{'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640529702.5787816, 'mess_text': 'HiHiHi'}], <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>], {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>}), {}
+2021-12-26 17:41:42; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:42; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640529702.5787816, 'mess_text': 'HiHiHi'}, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>), {}
+2021-12-26 17:41:42; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:42; INFO; server.py; Отправлено сообщение пользователю Den от пользователя Leo.
+2021-12-26 17:41:42; DEBUG; decorators.py; Вызвана функция message_handler c аргументами (<__main__.Server object at 0x7febe8bf38e0>, {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640529702.5787816, 'mess_text': 'HiHiHi'}, {'Leo': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, 'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>}, [<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>, <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>]), {}
+2021-12-26 17:41:42; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:49; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46754)>,), {}
+2021-12-26 17:41:49; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-26 17:41:49; DEBUG; decorators.py; Вызвана функция create_response_message c аргументами (<__main__.Server object at 0x7febe8bf38e0>, {'action': 'exit', 'time': 1640529709.1886487, 'user': {'account_name': 'Leo'}}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>], {'Den': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 46756)>}), {}
+2021-12-26 17:41:49; INFO; decorators.py; Вызвана из функции-предка: main
