@@ -1,0 +1,608 @@
+2021-12-29 15:27:33; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 15:27:33; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 15:27:46; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640780866.9018705, 'user': {'account_name': 'Leo'}}
+2021-12-29 15:27:46; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7fdbecb55780>, 'Leo'), {}
+2021-12-29 15:27:46; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:46; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640780866.9018705, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58630), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 15:27:46; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:47; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58630), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 15:27:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:47; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 15:27:47; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7fdbecb55780>, {'response': 200}), {}
+2021-12-29 15:27:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:47; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 15:27:47; DEBUG; client.py; Запущены процессы
+2021-12-29 15:27:50; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640780870.3415885, 'user': {'account_name': 'Den'}}
+2021-12-29 15:27:50; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f45f52f9780>, 'Den'), {}
+2021-12-29 15:27:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:50; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640780870.3415885, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58632), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 15:27:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:50; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58632), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 15:27:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:50; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 15:27:50; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f45f52f9780>, {'response': 200}), {}
+2021-12-29 15:27:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:27:50; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 15:27:50; DEBUG; client.py; Запущены процессы
+2021-12-29 15:41:20; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 15:41:20; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 15:41:47; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640781707.7021716, 'user': {'account_name': 'Leo'}}
+2021-12-29 15:41:47; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f2531455780>, 'Leo'), {}
+2021-12-29 15:41:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:47; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640781707.7021716, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58634), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 15:41:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:48; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58634), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 15:41:48; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:48; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 15:41:48; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f2531455780>, {'response': 200}), {}
+2021-12-29 15:41:48; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:48; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 15:41:48; DEBUG; client.py; Запущены процессы
+2021-12-29 15:41:54; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640781714.8859875, 'user': {'account_name': 'Alex'}}
+2021-12-29 15:41:54; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f2544ae5780>, 'Alex'), {}
+2021-12-29 15:41:54; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:54; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640781714.8859875, 'user': {'account_name': 'Alex'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58636), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 15:41:54; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:55; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58636), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 15:41:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:55; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 15:41:55; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f2544ae5780>, {'response': 200}), {}
+2021-12-29 15:41:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:41:55; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 15:41:55; DEBUG; client.py; Запущены процессы
+2021-12-29 15:42:05; DEBUG; client.py; Сформирован словарь сообщения: {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Alex', 'time': 1640781725.1737149, 'mess_text': 'Hello, Alex!'}
+2021-12-29 15:42:05; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Alex', 'time': 1640781725.1737149, 'mess_text': 'Hello, Alex!'}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58634), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 15:42:05; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:05; INFO; client.py; Отправлено сообщение для пользователя Alex
+2021-12-29 15:42:05; DEBUG; decorators.py; Вызвана функция create_message_to_server c аргументами (<__main__.Client object at 0x7f2531455780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58634), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 15:42:05; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:05; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58636), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 15:42:05; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:05; INFO; client.py; Получено сообщение от пользователя Leo:
+Hello, Alex!
+2021-12-29 15:42:08; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f2531455780>, 'Leo'), {}
+2021-12-29 15:42:08; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:08; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640781728.4372456, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58634), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 15:42:08; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:08; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 15:42:08; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 15:42:08; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f2531455780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58634), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 15:42:08; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:08; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f2531455780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58634), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 15:42:08; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:09; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f2531455780>,), {}
+2021-12-29 15:42:09; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 15:42:12; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f2544ae5780>, 'Alex'), {}
+2021-12-29 15:42:12; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:12; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640781732.5013046, 'user': {'account_name': 'Alex'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58636), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 15:42:12; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:12; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 15:42:12; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 15:42:12; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f2544ae5780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58636), raddr=('127.0.0.1', 7777)>, 'Alex'), {}
+2021-12-29 15:42:12; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:13; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f2544ae5780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58636), raddr=('127.0.0.1', 7777)>, 'Alex'), {}
+2021-12-29 15:42:13; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 15:42:13; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f2544ae5780>,), {}
+2021-12-29 15:42:13; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:40; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:00:40; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:00:48; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640782848.4461505, 'user': {'account_name': 'Den'}}
+2021-12-29 16:00:48; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f5309125780>, 'Den'), {}
+2021-12-29 16:00:48; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:48; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640782848.4461505, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:00:48; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:48; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:00:48; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:48; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:00:48; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f5309125780>, {'response': 200}), {}
+2021-12-29 16:00:48; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:48; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:00:48; DEBUG; client.py; Запущены процессы
+2021-12-29 16:00:55; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640782855.3101356, 'user': {'account_name': 'Alexandr'}}
+2021-12-29 16:00:55; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f7747909780>, 'Alexandr'), {}
+2021-12-29 16:00:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:55; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640782855.3101356, 'user': {'account_name': 'Alexandr'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:00:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:55; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:00:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:55; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:00:55; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f7747909780>, {'response': 200}), {}
+2021-12-29 16:00:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:00:55; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:00:55; DEBUG; client.py; Запущены процессы
+2021-12-29 16:01:09; DEBUG; client.py; Сформирован словарь сообщения: {'action': 'message', 'user': {'account_name': 'Alexandr'}, 'to': 'Den', 'time': 1640782869.4057846, 'mess_text': 'Hi Den'}
+2021-12-29 16:01:09; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Alexandr'}, 'to': 'Den', 'time': 1640782869.4057846, 'mess_text': 'Hi Den'}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:01:09; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:09; INFO; client.py; Отправлено сообщение для пользователя Den
+2021-12-29 16:01:09; DEBUG; decorators.py; Вызвана функция create_message_to_server c аргументами (<__main__.Client object at 0x7f7747909780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>, 'Alexandr'), {}
+2021-12-29 16:01:09; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:09; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:01:09; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:09; INFO; client.py; Получено сообщение от пользователя Alexandr:
+Hi Den
+2021-12-29 16:01:26; DEBUG; client.py; Сформирован словарь сообщения: {'action': 'message', 'user': {'account_name': 'Den'}, 'to': 'Alexandr', 'time': 1640782886.317263, 'mess_text': 'Luser!'}
+2021-12-29 16:01:26; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Den'}, 'to': 'Alexandr', 'time': 1640782886.317263, 'mess_text': 'Luser!'}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:01:26; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:26; INFO; client.py; Отправлено сообщение для пользователя Alexandr
+2021-12-29 16:01:26; DEBUG; decorators.py; Вызвана функция create_message_to_server c аргументами (<__main__.Client object at 0x7f5309125780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>, 'Den'), {}
+2021-12-29 16:01:26; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:26; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:01:26; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:26; INFO; client.py; Получено сообщение от пользователя Den:
+Luser!
+2021-12-29 16:01:29; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f5309125780>, 'Den'), {}
+2021-12-29 16:01:29; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:29; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640782889.0689185, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:01:29; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:29; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:01:29; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:01:29; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f5309125780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>, 'Den'), {}
+2021-12-29 16:01:29; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:29; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f5309125780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58638), raddr=('127.0.0.1', 7777)>, 'Den'), {}
+2021-12-29 16:01:29; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:30; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f5309125780>,), {}
+2021-12-29 16:01:30; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:01:32; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f7747909780>, 'Alexandr'), {}
+2021-12-29 16:01:32; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:32; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640782892.7650566, 'user': {'account_name': 'Alexandr'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:01:32; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:32; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:01:32; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:01:32; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f7747909780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>, 'Alexandr'), {}
+2021-12-29 16:01:32; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:33; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f7747909780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58642), raddr=('127.0.0.1', 7777)>, 'Alexandr'), {}
+2021-12-29 16:01:33; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:01:33; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f7747909780>,), {}
+2021-12-29 16:01:33; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:22; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:03:22; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:03:27; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783007.9147964, 'user': {'account_name': 'sss'}}
+2021-12-29 16:03:27; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f81b9ead780>, 'sss'), {}
+2021-12-29 16:03:27; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:27; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783007.9147964, 'user': {'account_name': 'sss'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58644), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:03:27; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:28; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58644), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:03:28; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:28; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:03:28; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f81b9ead780>, {'response': 200}), {}
+2021-12-29 16:03:28; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:28; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:03:28; DEBUG; client.py; Запущены процессы
+2021-12-29 16:03:32; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f81b9ead780>, 'sss'), {}
+2021-12-29 16:03:32; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:32; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640783012.9860725, 'user': {'account_name': 'sss'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58644), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:03:32; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:32; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:03:33; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:03:33; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f81b9ead780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58644), raddr=('127.0.0.1', 7777)>, 'sss'), {}
+2021-12-29 16:03:33; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:33; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f81b9ead780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58644), raddr=('127.0.0.1', 7777)>, 'sss'), {}
+2021-12-29 16:03:33; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:34; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f81b9ead780>,), {}
+2021-12-29 16:03:34; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:37; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783017.4984334, 'user': {'account_name': 'DDDD'}}
+2021-12-29 16:03:37; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7fa432a09780>, 'DDDD'), {}
+2021-12-29 16:03:37; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:37; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783017.4984334, 'user': {'account_name': 'DDDD'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58646), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:03:37; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:38; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58646), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:03:38; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:38; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:03:38; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7fa432a09780>, {'response': 200}), {}
+2021-12-29 16:03:38; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:03:38; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:03:38; DEBUG; client.py; Запущены процессы
+2021-12-29 16:03:40; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7fa432a09780>, 'DDDD'), {}
+2021-12-29 16:03:40; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:40; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640783020.730108, 'user': {'account_name': 'DDDD'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58646), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:03:40; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:40; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:03:41; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:03:41; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7fa432a09780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58646), raddr=('127.0.0.1', 7777)>, 'DDDD'), {}
+2021-12-29 16:03:41; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:41; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7fa432a09780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58646), raddr=('127.0.0.1', 7777)>, 'DDDD'), {}
+2021-12-29 16:03:41; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:03:42; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7fa432a09780>,), {}
+2021-12-29 16:03:42; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:07:51; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:07:51; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:07:58; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783278.9492536, 'user': {'account_name': 'LeoLeo'}}
+2021-12-29 16:07:58; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f2b8474d780>, 'LeoLeo'), {}
+2021-12-29 16:07:58; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:07:58; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783278.9492536, 'user': {'account_name': 'LeoLeo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58648), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:07:58; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:07:59; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58648), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:07:59; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:07:59; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:07:59; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f2b8474d780>, {'response': 200}), {}
+2021-12-29 16:07:59; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:07:59; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:07:59; DEBUG; client.py; Запущены процессы
+2021-12-29 16:08:03; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783283.4451816, 'user': {'account_name': 'MioMio'}}
+2021-12-29 16:08:03; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f230d321780>, 'MioMio'), {}
+2021-12-29 16:08:03; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:08:03; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783283.4451816, 'user': {'account_name': 'MioMio'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58650), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:08:03; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:08:03; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58650), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:08:03; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:08:03; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:08:03; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f230d321780>, {'response': 200}), {}
+2021-12-29 16:08:03; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:08:03; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:08:03; DEBUG; client.py; Запущены процессы
+2021-12-29 16:09:33; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:09:35; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783375.7994215, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:09:35; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f6d47841900>, 'Leo'), {}
+2021-12-29 16:09:35; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:09:35; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783375.7994215, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58652), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:09:35; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:09:36; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58652), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:09:36; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:09:36; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:09:36; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f6d47841900>, {'response': 200}), {}
+2021-12-29 16:09:36; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:09:36; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:09:36; DEBUG; client.py; Запущены процессы
+2021-12-29 16:09:45; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f6d47841900>, 'Leo'), {}
+2021-12-29 16:09:45; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:09:45; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640783385.942822, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58652), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:09:45; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:09:45; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:09:46; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:09:46; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f6d47841900>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58652), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:09:46; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:09:46; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f6d47841900>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58652), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:09:46; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:09:47; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f6d47841900>,), {}
+2021-12-29 16:09:47; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:13:22; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:13:22; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:13:28; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783608.5007691, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:13:28; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7ffa69c75780>, 'Leo'), {}
+2021-12-29 16:13:28; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:13:28; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783608.5007691, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58654), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:13:28; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:13:35; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783615.0448847, 'user': {'account_name': 'Den'}}
+2021-12-29 16:13:35; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7fa08c121780>, 'Den'), {}
+2021-12-29 16:13:35; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:13:35; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783615.0448847, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58656), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:13:35; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:14:52; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58654), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:14:52; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:14:52; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:14:52; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7ffa69c75780>, {'response': 200}), {}
+2021-12-29 16:14:52; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:14:52; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:14:52; DEBUG; client.py; Запущены процессы
+2021-12-29 16:15:18; DEBUG; client.py; Сформирован словарь сообщения: {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640783718.4037807, 'mess_text': 'Hi'}
+2021-12-29 16:15:18; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640783718.4037807, 'mess_text': 'Hi'}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58654), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:15:18; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:15:18; INFO; client.py; Отправлено сообщение для пользователя Den
+2021-12-29 16:15:18; DEBUG; decorators.py; Вызвана функция create_message_to_server c аргументами (<__main__.Client object at 0x7ffa69c75780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58654), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:15:18; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:07; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:17:07; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:17:12; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783832.2268267, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:17:12; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f1cf47d5780>, 'Leo'), {}
+2021-12-29 16:17:12; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:12; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783832.2268267, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58658), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:17:12; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:12; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58658), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:17:12; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:12; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:17:12; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f1cf47d5780>, {'response': 200}), {}
+2021-12-29 16:17:12; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:12; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:17:12; DEBUG; client.py; Запущены процессы
+2021-12-29 16:17:15; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783835.1545782, 'user': {'account_name': 'Den'}}
+2021-12-29 16:17:15; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f5d7733d780>, 'Den'), {}
+2021-12-29 16:17:15; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:15; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783835.1545782, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58660), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:17:15; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:15; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58660), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:17:15; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:15; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:17:15; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f5d7733d780>, {'response': 200}), {}
+2021-12-29 16:17:15; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:15; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:17:15; DEBUG; client.py; Запущены процессы
+2021-12-29 16:17:24; DEBUG; client.py; Сформирован словарь сообщения: {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640783844.1782336, 'mess_text': '111'}
+2021-12-29 16:17:24; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Den', 'time': 1640783844.1782336, 'mess_text': '111'}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58658), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:17:24; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:24; INFO; client.py; Отправлено сообщение для пользователя Den
+2021-12-29 16:17:24; DEBUG; decorators.py; Вызвана функция create_message_to_server c аргументами (<__main__.Client object at 0x7f1cf47d5780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58658), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:17:24; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:24; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58660), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:17:24; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:24; INFO; client.py; Получено сообщение от пользователя Leo:
+111
+2021-12-29 16:17:27; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f1cf47d5780>, 'Leo'), {}
+2021-12-29 16:17:27; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:27; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640783847.3942318, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58658), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:17:27; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:27; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:17:27; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:17:27; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f1cf47d5780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58658), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:17:27; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:27; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f1cf47d5780>,), {}
+2021-12-29 16:17:27; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:17:30; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f5d7733d780>, 'Den'), {}
+2021-12-29 16:17:30; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:30; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640783850.3849008, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58660), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:17:30; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:30; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:17:30; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:17:30; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f5d7733d780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58660), raddr=('127.0.0.1', 7777)>, 'Den'), {}
+2021-12-29 16:17:30; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:30; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f5d7733d780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58660), raddr=('127.0.0.1', 7777)>, 'Den'), {}
+2021-12-29 16:17:30; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:17:31; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f5d7733d780>,), {}
+2021-12-29 16:17:31; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:19:53; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:19:53; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:19:59; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640783999.5526164, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:19:59; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f816b3d5780>, 'Leo'), {}
+2021-12-29 16:19:59; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:19:59; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640783999.5526164, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58662), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:19:59; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:20:03; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640784003.8070095, 'user': {'account_name': 'Den'}}
+2021-12-29 16:20:03; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f64c347d780>, 'Den'), {}
+2021-12-29 16:20:03; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:20:03; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640784003.8070095, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58664), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:20:03; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:20:08; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58662), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:20:08; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:20:08; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:20:08; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f816b3d5780>, {'response': 200}), {}
+2021-12-29 16:20:08; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:20:08; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:20:08; DEBUG; client.py; Запущены процессы
+2021-12-29 16:20:42; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f816b3d5780>, 'Leo'), {}
+2021-12-29 16:20:42; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:20:42; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640784042.9276671, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58662), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:20:42; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:20:42; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:20:43; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f816b3d5780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58662), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:20:43; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:20:43; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f816b3d5780>,), {}
+2021-12-29 16:20:43; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:31:34; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:31:34; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:31:39; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640784699.9414449, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:31:39; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f8c1ac81780>, 'Leo'), {}
+2021-12-29 16:31:39; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:31:39; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640784699.9414449, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58666), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:31:39; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:31:43; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640784703.1414042, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:31:43; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f9b80d91780>, 'Leo'), {}
+2021-12-29 16:31:43; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:31:43; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640784703.1414042, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58668), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:31:43; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:31:49; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58666), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:31:49; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:31:49; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:31:49; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f8c1ac81780>, {'response': 200}), {}
+2021-12-29 16:31:49; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:31:49; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:31:49; DEBUG; client.py; Запущены процессы
+2021-12-29 16:32:54; DEBUG; client.py; Сформирован словарь сообщения: {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Leo', 'time': 1640784774.2917747, 'mess_text': 'Hi'}
+2021-12-29 16:32:54; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Leo', 'time': 1640784774.2917747, 'mess_text': 'Hi'}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58666), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:32:54; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:32:54; INFO; client.py; Отправлено сообщение для пользователя Leo
+2021-12-29 16:32:54; DEBUG; decorators.py; Вызвана функция create_message_to_server c аргументами (<__main__.Client object at 0x7f8c1ac81780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58666), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:32:54; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:32:57; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58668), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:32:57; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:32:57; ERROR; client.py; Ответ сервера - 400: Bad request
+2021-12-29 16:32:57; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f9b80d91780>, {'response': 400, 'error': 'Имя пользователя уже занято.'}), {}
+2021-12-29 16:32:57; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:32:57; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 400: Имя пользователя уже занято.
+2021-12-29 16:32:57; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58666), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:32:57; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:32:57; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:32:57; INFO; client.py; Получено сообщение от пользователя Leo:
+Hi
+2021-12-29 16:32:57; DEBUG; client.py; Запущены процессы
+2021-12-29 16:32:57; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f9b80d91780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58668), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:32:57; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:32:58; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f9b80d91780>,), {}
+2021-12-29 16:32:58; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:33:03; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f8c1ac81780>, 'Leo'), {}
+2021-12-29 16:33:03; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:33:03; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640784783.7956462, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58666), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:33:03; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:33:03; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:33:04; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7f8c1ac81780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58666), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:33:04; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:33:04; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f8c1ac81780>,), {}
+2021-12-29 16:33:04; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:27; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:36:27; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:36:35; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640784995.5361207, 'user': {'account_name': 'Oleg'}}
+2021-12-29 16:36:35; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7fd42fd11780>, 'Oleg'), {}
+2021-12-29 16:36:35; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:35; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640784995.5361207, 'user': {'account_name': 'Oleg'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58670), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:36:35; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:36; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58670), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:36:36; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:36; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:36:36; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7fd42fd11780>, {'response': 200}), {}
+2021-12-29 16:36:36; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:36; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:36:36; DEBUG; client.py; Запущены процессы
+2021-12-29 16:36:50; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640785010.0956516, 'user': {'account_name': 'Den'}}
+2021-12-29 16:36:50; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7fb098865780>, 'Den'), {}
+2021-12-29 16:36:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:50; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640785010.0956516, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58672), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:36:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:50; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58672), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:36:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:50; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:36:50; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7fb098865780>, {'response': 200}), {}
+2021-12-29 16:36:50; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:36:50; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:36:50; DEBUG; client.py; Запущены процессы
+2021-12-29 16:37:50; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:37:50; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:37:55; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640785075.1988237, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:37:55; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f1d45385780>, 'Leo'), {}
+2021-12-29 16:37:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:37:55; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640785075.1988237, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58674), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:37:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:37:55; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58674), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:37:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:37:55; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:37:55; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f1d45385780>, {'response': 200}), {}
+2021-12-29 16:37:55; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:37:55; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:37:55; DEBUG; client.py; Запущены процессы
+2021-12-29 16:38:00; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640785080.0306392, 'user': {'account_name': 'Den'}}
+2021-12-29 16:38:00; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7ff4b6d35780>, 'Den'), {}
+2021-12-29 16:38:00; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:38:00; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640785080.0306392, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58676), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:38:00; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:38:00; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58676), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:38:00; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:38:00; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:38:00; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7ff4b6d35780>, {'response': 200}), {}
+2021-12-29 16:38:00; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:38:00; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:38:00; DEBUG; client.py; Запущены процессы
+2021-12-29 16:39:57; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:39:57; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:40:02; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640785202.3300383, 'user': {'account_name': 'Den'}}
+2021-12-29 16:40:02; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f9cc6751780>, 'Den'), {}
+2021-12-29 16:40:02; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:02; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640785202.3300383, 'user': {'account_name': 'Den'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58678), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:40:02; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:02; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58678), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:40:02; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:02; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:40:02; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f9cc6751780>, {'response': 200}), {}
+2021-12-29 16:40:02; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:02; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:40:02; DEBUG; client.py; Запущены процессы
+2021-12-29 16:40:06; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640785206.6999855, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:40:06; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f25e12cd780>, 'Leo'), {}
+2021-12-29 16:40:06; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:06; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640785206.6999855, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58680), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:40:06; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:07; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58680), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:40:07; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:07; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:40:07; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f25e12cd780>, {'response': 200}), {}
+2021-12-29 16:40:07; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:40:07; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:40:07; DEBUG; client.py; Запущены процессы
+2021-12-29 16:43:10; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:43:10; INFO; client.py; 
+Адрес сервера: 127.0.0.1
+Порт сервера: 7777
+2021-12-29 16:43:14; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640785394.9687932, 'user': {'account_name': 'Leo'}}
+2021-12-29 16:43:14; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7f6443735780>, 'Leo'), {}
+2021-12-29 16:43:14; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:14; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640785394.9687932, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58682), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:43:14; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:15; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58682), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:43:15; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:15; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:43:15; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7f6443735780>, {'response': 200}), {}
+2021-12-29 16:43:15; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:15; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:43:15; DEBUG; client.py; Запущены процессы
+2021-12-29 16:43:23; INFO; client.py; Сообщение создано: {'action': 'presence', 'time': 1640785403.542026, 'user': {'account_name': 'Alex'}}
+2021-12-29 16:43:23; DEBUG; decorators.py; Вызвана функция create_presence_message_to_server c аргументами (<__main__.Client object at 0x7fd9ae9cd780>, 'Alex'), {}
+2021-12-29 16:43:23; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:23; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'presence', 'time': 1640785403.542026, 'user': {'account_name': 'Alex'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58684), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:43:23; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:24; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58684), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:43:24; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:24; INFO; client.py; Ответ сервера - 200: OK
+2021-12-29 16:43:24; DEBUG; decorators.py; Вызвана функция create_answer c аргументами (<__main__.Client object at 0x7fd9ae9cd780>, {'response': 200}), {}
+2021-12-29 16:43:24; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:24; INFO; client.py; Установлено соединение с сервером. Ответ сервера: 200: OK
+2021-12-29 16:43:24; DEBUG; client.py; Запущены процессы
+2021-12-29 16:43:34; DEBUG; client.py; Сформирован словарь сообщения: {'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Alex', 'time': 1640785414.5385308, 'mess_text': 'lol'}
+2021-12-29 16:43:34; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'message', 'user': {'account_name': 'Leo'}, 'to': 'Alex', 'time': 1640785414.5385308, 'mess_text': 'lol'}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58682), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:43:34; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:34; INFO; client.py; Отправлено сообщение для пользователя Alex
+2021-12-29 16:43:34; DEBUG; decorators.py; Вызвана функция create_message_to_server c аргументами (<__main__.Client object at 0x7f6443735780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58682), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:43:34; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:34; DEBUG; decorators.py; Вызвана функция get_data c аргументами (<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58684), raddr=('127.0.0.1', 7777)>,), {}
+2021-12-29 16:43:34; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:34; INFO; client.py; Получено сообщение от пользователя Leo:
+lol
+2021-12-29 16:43:37; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7f6443735780>, 'Leo'), {}
+2021-12-29 16:43:37; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:37; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640785417.0465748, 'user': {'account_name': 'Leo'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58682), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:43:37; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:37; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:43:37; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:43:37; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7f6443735780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58682), raddr=('127.0.0.1', 7777)>, 'Leo'), {}
+2021-12-29 16:43:37; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:37; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7f6443735780>,), {}
+2021-12-29 16:43:37; INFO; decorators.py; Вызвана из функции-предка: main
+2021-12-29 16:43:42; DEBUG; decorators.py; Вызвана функция create_exit_message c аргументами (<__main__.Client object at 0x7fd9ae9cd780>, 'Alex'), {}
+2021-12-29 16:43:42; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:42; DEBUG; decorators.py; Вызвана функция send_data c аргументами ({'action': 'exit', 'time': 1640785422.103929, 'user': {'account_name': 'Alex'}}, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58684), raddr=('127.0.0.1', 7777)>), {}
+2021-12-29 16:43:42; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:42; INFO; client.py; Завершение работы по команде пользователя.
+2021-12-29 16:43:42; CRITICAL; client.py; Потеряно соединение с сервером.
+2021-12-29 16:43:42; DEBUG; decorators.py; Вызвана функция get_message_from_server c аргументами (<__main__.Client object at 0x7fd9ae9cd780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58684), raddr=('127.0.0.1', 7777)>, 'Alex'), {}
+2021-12-29 16:43:42; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:42; DEBUG; decorators.py; Вызвана функция user_interactive c аргументами (<__main__.Client object at 0x7fd9ae9cd780>, <socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 58684), raddr=('127.0.0.1', 7777)>, 'Alex'), {}
+2021-12-29 16:43:42; INFO; decorators.py; Вызвана из функции-предка: _bootstrap_inner
+2021-12-29 16:43:43; DEBUG; decorators.py; Вызвана функция start_client c аргументами (<__main__.Client object at 0x7fd9ae9cd780>,), {}
+2021-12-29 16:43:43; INFO; decorators.py; Вызвана из функции-предка: main
